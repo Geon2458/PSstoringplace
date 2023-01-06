@@ -69,9 +69,9 @@ int main(void)
 	printf("%s\n", c_array);
 	for (int i = 0; i < sizeof(c_array); i++)
 	{
-		printf("%c\n", c_array[i]);	
+		printf("%ld\n", c_array[i]); // ASCII 코드 값 출력(NULL문자는 0으로 출력)
 	}	
-	
+	// ASCII 코드란 ANSI (미국표준협회) 에서 제시한 표준 코드 체계.
 	
 	return 0;
 }
