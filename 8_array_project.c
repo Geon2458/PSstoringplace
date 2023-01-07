@@ -22,7 +22,7 @@ int main(void)
 		} while (cntShowBottle == prevCntShowBottle);
 		prevCntShowBottle = cntShowBottle;
 		
-		int isInclude = 0; // 보여줄 발모제가 포함되었는지 여부를 표시 (1이면 포함 0이면 불포함.)
+		int isIncluded = 0; // 보여줄 발모제가 포함되었는지 여부를 표시 (1이면 포함 0이면 불포함.)
 		printf(" > %d 번째 시도: ", i);
 		
 		// 보여줄 병의 종류를 선택
@@ -36,7 +36,7 @@ int main(void)
 				bottle[randBottle] = 1;
 				if (randBottle == treatment)
 				{
-					isInclude = 1;
+					isIncluded = 1;
 				}
 			}
 			// 이미 선택된 병이면, 중복이므로 다시 선택 
@@ -51,12 +51,12 @@ int main(void)
 		{
 			if (bottle[k] == 1)
 			{
-				printf("%d", k + 1);
+				printf("%d ", k + 1);
 			}
 		}
 		printf("물약을 머리에 바릅니다.\n\n");
 		
-		if (isInclude == 1)
+		if (isIncluded == 1)
 		{
 			printf(" >> 성공 ! 머리가 났어요 !!\n");
 		}
