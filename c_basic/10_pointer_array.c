@@ -2,8 +2,8 @@
 
 int main(void)
 {
-	포인트 = *
-	배열
+	// 포인트 = *
+	// 배열
 	int arr[3] = {5, 10, 15};
 	int * ptr = arr;
 	for (int i = 0; i < 3; i++)
