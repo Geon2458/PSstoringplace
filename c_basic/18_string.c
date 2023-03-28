@@ -14,6 +14,13 @@ int main(void)
 	scanf("%[^\n]", arr);
 	printf("%s", arr, sizeof(arr));
 	
+	char str[101];
+	
+	while ((str[101] = getchar()) != EOF)
+	{
+		putchar(str[101]);
+	}
+	
 	/*
 	atoi(문자열);
 	int atoi(char const *_String);
@@ -35,10 +42,26 @@ int main(void)
 	* 9. %c : 하나의 문자로 출력 문자형  *
 	* 10. %s : 문자열을 출력           *
 	*********************************
-	*/	
 	// QR Code "alphanumeric" 문자는 0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ\$%*+-./: 이다.
-		
-		
+	
+	a ~ z = 97 ~ 122
+	
+	A ~ Z = 65 ~ 90
+	
+	0 ~ 9 = 48 ~ 57
+	
 	// char arr[26] = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'};
+	
+	char abc[] = {'A', 'B', 'C'};
+	char def[] = {'D', 'E', 'F'};
+	char ghi[] = {'G', 'H', 'I'};
+	char jkl[] = {'J', 'K', 'L'};
+	char mno[] = {'M', 'N', 'O'};
+	char pqrs[] = {'P', 'Q', 'R', 'S'};
+	char tuv[] = {'T', 'U', 'V'};
+	char wxyz[] = {'W', 'X', 'Y', 'Z'};
+	
+	*/
+	
 	return 0;
 }
