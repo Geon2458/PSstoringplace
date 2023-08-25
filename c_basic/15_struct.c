@@ -63,7 +63,7 @@ int main(void)
 	// 구조체 출력
 	printf("-- i회사 게임 출시 정보 --\n");
 	printf(" 게임명   : %s\n", gameInfo1.name);
-	printf(" 발매년도 : %d\n", gameInfo1.year);
+	printf(" 발매년도  : %d\n", gameInfo1.year);
 	printf(" 가격     : %d\n", gameInfo1.price);
 	printf(" 제작사   : %s\n\n", gameInfo1.company);
 	

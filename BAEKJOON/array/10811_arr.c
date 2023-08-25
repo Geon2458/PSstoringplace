@@ -4,7 +4,7 @@ void swap(int * a, int * b);
 
 int main(void)
 {
-	int n, m, a, b, temp;
+	int n, m, a, b;
 	int arr[101];
 	
 	scanf("%d %d", &n, &m); // 바구니의 갯수와 역순으로 할 바구니의 순서

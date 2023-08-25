@@ -5,10 +5,10 @@ int main(void)
 {
 	while (1)
 	{
-	int A;
-	scanf("%d", &A);
-	int B;
-	scanf("%d", &B);
+		int A;
+		scanf("%d", &A);
+		int B;
+		scanf("%d", &B);
 		if (A > 0 && B < 10)
 		{
 		printf("%d\n", A + B);	
